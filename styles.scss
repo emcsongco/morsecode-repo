@@ -2,5 +2,48 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    color: $color-string;
 }
+
+$color-string:navy;
+$color-background: whitesmoke;
+$font-title: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$font-label: Arial, Helvetica, sans-serif;
+$font-button: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$font-entry: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+h2 {
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-family: $font-title;
+}
+.card {
+    border: 1px solid $color-string;
+    background-color: $color-background;
+    width: auto;
+    height:auto;
+    margin: 25px;
+    padding: 25px;
+    font-family: $font-entry;
+}
+
+label {
+    font-family: $font-label;
+    font-weight: bold;
+}
+
+.card__submit {
+    border: 1px solid blue;
+    font-family: $font-button;
+    font-size: 20px;
+    padding:5px;
+}
+    
+div.card__output {
+    border: 1px dashed $color-string;
+    width: auto;
+    height: 20vh;
+}
+
 

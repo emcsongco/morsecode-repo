@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morse Code Project</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="./index.js"></script>
 </head>
 <body>
-    <h1>Translate Text to Morse Code</h1>
-    <form>
+    <h1>Text to Morse Code Translator</h1>
+    <div class = "card">
         <label for="input">Enter text:</label><br>
-            <input type="text" id="input" name="fname" value="">
-            <input type="submit" value="Submit">
         <div>
-            <h2>Morse Code Equivalent</h2>
+            <input class="card__input" type="text">
+            <input class="card__submit" type="submit">
         </div> 
-    </form>
+        <br>
+
+        <label for="output">Translation:</label><br>
+        <div class="card__output">
+            Morse code will be displayed here
+        </div>
+    <div>
+    <script type = "module" src="./main.js"></script>
 </body>
 </html>
